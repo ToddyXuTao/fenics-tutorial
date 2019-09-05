@@ -92,6 +92,7 @@ plot(mesh, title = 'Finite element mesh')
 plt.show()
 
 
+
 # Save solution to file in VTK format
 vtkfile = File('poisson/solution.pvd')
 vtkfile << u
